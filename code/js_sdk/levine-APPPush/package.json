@@ -1,0 +1,13 @@
+{
+    "id": "levine-APPPush",
+    "name": "自定义推送弹框，App，h5站内信弹框",
+    "version": "1.0.0",
+    "description": "自定义的推送弹框，非调用系统弹框，只支持app和h5，app端支持振动，系统提示音",
+    "keywords": [
+        "推送",
+        "自定义推送",
+        "push",
+        "native.js",
+        "通知"
+    ]
+}
