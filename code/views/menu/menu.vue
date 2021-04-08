@@ -55,9 +55,16 @@
 		methods: {
 			
 			async doOpenMenuPage(item){
-				plus.runtime.setBadgeNumber(1);
+				
+				
+				// #ifdef APP-PLUS
+					plus.runtime.setBadgeNumber(1);
+				// #endif
+				
+			
+				
 				console.log('进来了',item)
-				if(item.name === '答案之书'){
+				if(item.name === '随机一句话'){
 					console.log('跳转')
 					
 					let params = {
