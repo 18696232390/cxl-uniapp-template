@@ -1,7 +1,7 @@
 {
-    "name" : "泪痕",
+    "name" : "cxl-uniapp-template",
     "appid" : "__UNI__B84A3CA",
-    "description" : "一款恋爱APP",
+    "description" : "uniapp快速开发脚手架",
     "versionName" : "0.0.3",
     "versionCode" : "100",
     "transformPx" : false,

@@ -1,9 +1,9 @@
 <template>
 	<view>
-		<u-navbar :is-back="false" title="泪痕"></u-navbar>
+		<u-navbar :is-back="false" title="快速开发脚手架"></u-navbar>
 		<view class="content">
 			<view class="search-body">
-				<u-search placeholder="日照香炉生紫烟" v-model="keyword"></u-search>
+				<u-search placeholder="请搜索" v-model="keyword"></u-search>
 			</view>
 			<view class="wrap">
 				<u-swiper :list="swiperList" :effect3d="true" :height="300"></u-swiper>
