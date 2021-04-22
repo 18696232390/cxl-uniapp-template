@@ -9,8 +9,15 @@ App.mpType = 'app';
 import appPush from '@/js_sdk/levine-APPPush/levine-APPPush/plugins/APPPush/index.js'
 Vue.use(appPush)
 
+
+import baseConfig from '@/config/baseConfig.js'
+import appUtils from '@/utils/appUtils.js'
+
 // 此处为演示Vue.prototype使用，非uView的功能部分
 Vue.prototype.vuePrototype = '枣红';
+
+Vue.prototype.$baseConfig = baseConfig;
+Vue.prototype.$appUtils = appUtils;
 
 // 引入全局uView
 import uView from 'uview-ui';
